@@ -1,3 +1,4 @@
+#
 # Prerequisites
 *.d
 
@@ -36,45 +37,11 @@
 *.doc
 *.odt
 
-# raw binary data files
-*.data
-
-# channelId config files
-#*.000
-#calibration files
-*.002
-*.003
 # text files || content
-#*.txt
-content
+*.txt
+# cmake derivatives
+*.cmake
 
 # ignore directories
 build*/*
 docs/*
-!docs/html/
-!docs/Doxyfile
-misc/buaa_2018
-misc/C16_June_cali_scriplet
-misc/ExpLog
-misc/expSettings
-misc/ref
-misc/results
-misc/trash
-misc/recycler
-misc/**/*.00*
-misc/**/*.zip
-misc/**/*.root
-!misc/**.jpg
-!misc/**.pdf
-!build*/*.sh
-!build*/*.C
-!build*/PID/
-build*/PID/**/*.root
-data/*
-!data/example/
-!config/
-config/**/*.000
-Lab/
-anaG4SimBuild/*
-!build1/WithTA_2020_0314/
-build1/WithTA_2020_0314/**/*.root
