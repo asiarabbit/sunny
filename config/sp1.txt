@@ -1,0 +1,11 @@
+# Single particle input file for Full Configuration Interaction method
+# in tackling many-body problems.
+# The file format is as follows:
+#
+# index   n     l    2j    2mj    energy
+    0     0     2    5     -5       0
+    1     0     2    5     -3       1
+    2     0     2    5     -1       2
+    3     0     2    5      1       3
+    4     0     2    5      3       4
+    5     0     2    5      5       5
